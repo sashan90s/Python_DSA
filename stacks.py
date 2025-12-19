@@ -9,14 +9,14 @@ for i in arr:
 print("using pop")
 for i in range(len(arr)):
     print(i)
-    print(arr.pop())
+    print(arr.pop()) # pops from the end
 
 
 arr2= [1,2,3,4,6,7,3,5]
 print("inserting into arr2")
 arr2.insert(1,
             7)
-print(arr2)
+print(arr2) # [1, 7, 2, 3, 4, 6, 7, 3, 5]
 
 
 class Solution:
@@ -35,3 +35,4 @@ class Solution:
 sol = Solution()
 resultz = sol.twoSum([2,7,3,3,6,15],6)
 print(resultz)
+
